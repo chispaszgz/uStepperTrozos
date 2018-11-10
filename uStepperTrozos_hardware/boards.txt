@@ -1,0 +1,26 @@
+##############################################################
+
+uStepperTrozos.name=uStepper a Trozos
+
+uStepperTrozos.upload.tool=arduino:avrdude
+uStepperTrozos.upload.protocol=arduino
+uStepperTrozos.upload.maximum_size=30720
+uStepperTrozos.upload.maximum_data_size=2048
+uStepperTrozos.upload.speed=115200
+
+uStepperTrozos.bootloader.tool=arduino:avrdude
+uStepperTrozos.bootloader.low_fuses=0xFF
+uStepperTrozos.bootloader.high_fuses=0xDA
+uStepperTrozos.bootloader.extended_fuses=0xFD
+uStepperTrozos.bootloader.unlock_bits=0x3F
+uStepperTrozos.bootloader.lock_bits=0x0F
+uStepperTrozos.bootloader.file=optiboot_atmega328.hex
+
+uStepperTrozos.build.mcu=atmega328p
+uStepperTrozos.build.f_cpu=16000000L
+uStepperTrozos.build.board=AVR_NANO
+uStepperTrozos.build.core=arduino:arduino
+uStepperTrozos.build.variant=usteppertrozos
+
+
+##############################################################
